@@ -1,0 +1,17 @@
+# edges.json
+{
+  "pipeline": {
+    "name": "edges"
+  },
+  "description": "A pipeline that performs image edge detection by using the OpenCV library.",
+  "transform": {
+    "cmd": [ "python3", "/edges.py" ],
+    "image": "pachyderm/opencv"
+  },
+  "input": {
+    "pfs": {
+      "repo": "images",
+      "glob": "/*"
+    }
+  }
+}
