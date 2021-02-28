@@ -1,7 +1,6 @@
 # Pachyderm-Image-Tracer
 Deploying a Pachyderm pipeline to detect edges of photos and output the results.
 
-
 ## Tutorial source: https://docs.pachyderm.com/latest/getting_started/beginner_tutorial/ 
 This tutorial will show users how to deploy a Pachyderm pipeline to detect edges of photos and output the results.
 
@@ -36,3 +35,9 @@ Users must have Pachyderm running locally or sign up on the Pachyderm website to
 
 ## Pachyderm Tracing
 - The team made the approach of using Pachyderm to trace images in order to use these images as adversarial ones. The team had recognized that some of the successful adversarial images that were found online looked very similar to faces. By creating traced images of faces, the team can mimic a similar pattern that may disrupt recognition.
+
+![traceElon](https://user-images.githubusercontent.com/69592206/109435861-9ab82680-79ea-11eb-9dbe-3e244ad5b8c4.jpg)
+
+![traceTupac](https://user-images.githubusercontent.com/69592206/109435779-2c736400-79ea-11eb-9675-5b4f10f6cd35.jpg)
+
+![traceDanh](https://user-images.githubusercontent.com/69592206/109435783-2ed5be00-79ea-11eb-9a0e-37cec52e016a.jpg)
